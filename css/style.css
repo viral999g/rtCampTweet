@@ -1,0 +1,251 @@
+body{
+	padding-top: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+.container-fluid{
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+.navbar{
+	margin: 0px;
+	border-radius: 0px;
+	background-color: #A569BD
+}
+ 
+.site{
+	background: transparent;
+	color: #fff;
+	margin-left: 15px;
+}
+
+.start{
+	margin-bottom: 2px;
+	padding-left: 5px;
+	background-color: #0084b4;
+	border-radius: 0px;
+	height: 300px;
+	padding-top: 30px
+}
+
+.tweet {
+	width: 88%;
+	margin: 7px 20px 7px 60px;
+	padding: 0px 5px 3px 5px;
+	cursor: pointer;
+	position: relative;
+	/*box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.25);*/
+}
+
+.tweet img {
+	left: -55px;
+	position: absolute;
+	top: 0;
+}
+
+.tweet p {
+	display: block;
+	clear: both;
+	margin: 5px 3px;
+	font-size: 13px;
+}
+
+.tweet label {
+	margin-top: -3px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #BDBDBD;
+	cursor: pointer;
+}
+
+.tweet .tweet-user {
+	display: block;
+	float: left;
+	margin-left: 3px;
+	margin-bottom: 5px;
+}
+
+.tweet .tweet-user span a, p.tweet-text a {
+	font-size: 25px;
+	color: #f5f5f5;
+	text-decoration: none;
+}
+
+p.tweet-text a {
+	font-size: 12px;
+	color: #7b7b7b;
+	text-decoration: none;
+}
+
+.tweet-user span a:hover, p.tweet-text a:hover {
+	text-decoration: none;
+}
+
+p.tweet-text{
+	color: #fff;
+	padding-left: 10px;
+	border-radius: 5px;
+	width: auto;
+	margin-right: 5px;
+	font-size: 25px 
+}
+
+.tweet .tweet-timestamp {
+	display: block;
+	float: right;
+	margin-right: 3px;
+	text-align: right;
+	font-size: 11px ;
+}
+
+.tweet-user-list {
+	display: block;
+	margin-left: 0 rem;
+	list-style: none;
+}
+
+.tweet-user-list li {
+	display: block;
+	
+}
+
+.banner {
+	height: 245px;
+	width: 100%;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.large-3 {
+	border-radius: 10px;
+}
+body{
+	margin-top: 10px;
+}
+.proImg {
+	border-radius: 10px;
+}
+
+p .text-center{
+	font-size: 10px;
+}
+
+div .jumbotron { 
+	background-color: #0084b4; /* Dark blue */
+	color: #ffffff;
+}
+
+.friend{
+	background-color: #ffffff;
+}
+
+.form-control{
+	width: 70%;
+}
+
+
+.tweet-text a{
+	color: #fff;
+}
+
+.tweet-text p{
+	color: #fff;
+	padding-left: 10px;
+	border-radius: 5px;
+	width: auto;
+	margin-right: 5px;
+	font-size: 15px
+}
+
+.links a{
+	color: #000;
+}
+
+.links a{
+	padding-top: 30px
+}
+
+.tweet-user{
+	font-weight: bolder;
+}
+
+.radius{
+	padding-top: 20px;
+	margin-left: 12px;
+	height: auto;
+	padding-bottom: 20px;
+	background-color: #fff
+}
+
+.links{
+	margin-top: 30px;
+}
+
+.forhover:hover{
+	background-color: #fff;
+	background: top;
+}
+
+body::-webkit-scrollbar {
+	width: 0.1em;
+}
+
+body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: darkgrey;
+	outline: 1px solid slategrey;
+}
+
+div::-webkit-scrollbar {
+	width: 0em;
+}
+
+div::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+div::-webkit-scrollbar-thumb {
+	background-color: darkgrey;
+	outline: 0px solid slategrey;
+}
+
+.tweet-thread::-webkit-scrollbar {
+	width: 0em;
+}
+
+.tweet-thread::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.tweet-thread::-webkit-scrollbar-thumb {
+	background-color: darkgrey;
+	outline: 1px solid slategrey;
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color:#B7950B;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px
+}
+
+p .tweet-text a{
+	font-size: 25px
+}
+
+.profile-pic{
+	width: 100px;
+	height: 100px;
+}
+
+.profile_info{
+	position: absolute;
+	width: 500px;
+	margin: 0px 0 0 -250px;
+	left: 48%;
+}
