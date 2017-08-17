@@ -8,6 +8,10 @@ Live demo : https://tweeterchallenge.herokuapp.com/
 -> Search for friends and their tweets.</br>
 -> Download option for CSV and XLS file formats.</br>
 
+## I also created the same assignment in a different template
+Github Repo. : https://github.com/viral999g/Tweet  
+Demo :  https://tchallenge.herokuapp.com/
+
 <h2> Project structure</h2>
 <pre>
 
