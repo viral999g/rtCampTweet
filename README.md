@@ -10,6 +10,7 @@ Live demo : https://tweeterchallenge.herokuapp.com/
 
 <h2> Project structure</h2>
 <pre>
+
 rtcamp-twitter-challenge/
 |_ _ _ _ css
 |	     |_ _ _style.css
@@ -20,14 +21,18 @@ rtcamp-twitter-challenge/
 |               |_ _ _ twitteroauth.php
 |        |_ _ _ excel.php
 |
-|_ _ _ _ download
-|		 |_ _ _ export.csv
-|		 |_ _ _ export.xls
 |_ _ _ _ js
 |        |_ _ _ script.js
 |        |_ _ _ strings.js
 |        |_ _ _ Tweet.js
 |        |_ _ _ TweetUI.js
+|
+|_ _ _ _ tests
+|        |_ _ _ app
+|               |_ _ _ controllers
+|				       |_ _ _ core 
+|				       		  |_ _ _ web
+|				       		  		 |_ _ _ PagesTest.php
 |
 |_ _ _ _images
 |		|_ _ _loading.gif
@@ -44,5 +49,6 @@ rtcamp-twitter-challenge/
 |_ _ _ _ login.php
 |_ _ _ _ redirect.php
 |_ _ _ _ tweet_operations.php
+|_ _ _ _ README.md
 
 </pre>
