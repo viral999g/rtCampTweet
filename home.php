@@ -60,14 +60,13 @@
 						<ul class="nav navbar-nav">
 
 							<li style="background: transparent;color: #ffd;padding:0px 5px 0px 5px;"><img style="margin-right: 10px;" class="img-circle" src="<?php echo $user_info->profile_image_url;?>"><?php echo $user_info->name; ?> </li>
-							<li class="dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown" style="background: transparent;color: #ffd" href="#"><i class="fa fa-download"></i></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">CSV format</a></li>
-									<li><a href="#">XLS format</a></li>
+
+							<li id="export-csv"><a href="#" style="color: #fff;"><i class="fa fa-download"></i>&nbspCSV format</a></li>
+							<li id="export-xls"><a href="#" style="color: #fff;"><i class="fa fa-download"></i>&nbspXLS format</a></li>
 									
 								</ul>
 							</li>
+							
 
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
