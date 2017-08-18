@@ -129,7 +129,7 @@
 						<div class="radius panel jumbotron" style="margin-top: 8px;background-color: #D1F2EB;">
 							<div class="tweet bubble-left" id="{{id_str}}">
 								<img class="img-circle" src="{{user.profile_image_url}}" alt="profile image">
-								<label class="text-center" style="font-size: 15px;margin-left: 15px" id="">{{user.name}}<span><a style="margin-left: 5px" href="www.twitter.com/{{user.screen_name}}" target="_blank">@{{user.screen_name}}</a></span>&nbsp&nbsp<span class="tweet-timestamp" id="">{{getDateTime created_at}}</span></label>
+								<label class="text-center" style="font-size: 15px;margin-left: 15px" id="">{{user.name}}<span><a style="margin-left: 5px" href="http://www.twitter.com/{{user.screen_name}}" target="_blank">@{{user.screen_name}}</a></span>&nbsp&nbsp<span class="tweet-timestamp" id="">{{getDateTime created_at}}</span></label>
 								
 								<p class="tweet-text" style="margin-top: 20px;font-size: 15px;background:transparent;color: #111">{{twityfy text}}</p>
 								<p class="links" style="margin-top: 20px;color: #00f;">
